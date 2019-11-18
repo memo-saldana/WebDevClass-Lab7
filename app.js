@@ -26,7 +26,6 @@ app.use('/',index)
 app.use(errorHandling())
 app.use(sendAsJson());
 
-
 let server = app.listen(PORT, _ => {
   console.log(`GOT API running on port ${ PORT }`)
 })

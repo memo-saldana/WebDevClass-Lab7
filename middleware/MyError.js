@@ -6,7 +6,5 @@ module.exports = class MyError extends Error {
     if(callstack){
       this.stack = callstack;
     }
-    // return res.status(400).json({success: false, message: message});
   }
-  
 }
