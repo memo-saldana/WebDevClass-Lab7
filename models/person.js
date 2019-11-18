@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var personSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, 'name cannot be empty'],
+    required: [true, 'Name required'],
     unique: true
   },
   age: {
